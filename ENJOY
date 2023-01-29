@@ -8,8 +8,8 @@ print('[✓]CONGRATULATIONS YOUR DEVICE SUPPORT THIS TO>
 print('[✓] LOADING...')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from BOSS2 import BOSS
+    from BOSS1 import BOSS
     BOSS()
 elif bit == '32bit':
-    from BOSS1 import BOSS
+    from BOSS2 import BOSS
     BOSS()
